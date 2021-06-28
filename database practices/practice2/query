@@ -1,0 +1,28 @@
+1. 
+delete from Customer
+where Country = 'Spain'
+
+
+2.
+UPDATE "Order"
+SET OrderDate = '2021-06-21',
+ShipCountry = 'Germany'
+WHERE CustomerId = 'VICTE'
+
+
+3.
+INSERT INTO Shipper (CompanyName, Phone)
+values 
+	('company 1','123456789'),
+	('company 2','987654321'),
+	('company 3','010203040');
+
+
+4.
+SELECT ProductName,UnitPrice from Product
+WHERE UnitPrice < 50
+AND Discontinued = 1;
+
+
+5.
+ba GUI sqlite anjam dadam,bayad file database ro bebinid
